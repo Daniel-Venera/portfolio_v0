@@ -78,12 +78,9 @@ header {
 /* .main-container, .project-container, .projects, .project,  h2 { border: 1px solid red; } */
 
 .main-container {
-  margin: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  width: 1140px;
+  margin: 50px;
   background-color: white;
-  padding: 30px 30px 30px 30px;
+  padding: 50px;
 }
 
 .projects {
@@ -92,14 +89,13 @@ header {
 
 .project-container {
   display: flex;
-  margin: auto;
-  width: 1024px;
+  margin: auto;;
 }
 
 .project {
   width: 50%;
   margin: 5px;
-  padding: 5px;
+  padding: 20px;
 }
 
 .project-container a {
