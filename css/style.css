@@ -1,17 +1,18 @@
 /* Generic classes */
-html { 
-  height:100%;
+
+html {
+  height: 100%;
 }
 
 html, body {
-  padding:0px;
-  margin:0px; 
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
-  min-height:100%; 
-  position:relative;
+  min-height: 100%;
+  position: relative;
   background-color: #eee;
 }
 
@@ -32,6 +33,7 @@ h2 {
 }
 
 /* Footer */
+
 footer {
   text-align: center;
   position: absolute;
@@ -43,7 +45,6 @@ footer {
   color: #e6e6e6
 }
 
-
 footer a, i {
   color: #e6e6e6;
   text-decoration: none;
@@ -54,6 +55,7 @@ footer a:hover {
 }
 
 /* Header */
+
 header {
   background: url("../images/react.png"), no-repeat center;
   /* width: 100%; */
@@ -61,8 +63,8 @@ header {
   /* height: 200px; */
   height: 630px;
   /* border: 2px solid red; */
-  padding:0px;
-  margin:0px; 
+  padding: 0px;
+  margin: 0px;
 }
 
 .title {
@@ -89,13 +91,13 @@ header {
 
 .project-container {
   display: flex;
-  margin: auto;;
+  margin: auto;
 }
 
 .project {
   width: 50%;
   margin: 5px;
-  padding: 20px;
+  padding: 5px;
 }
 
 .project-container a {
@@ -104,8 +106,6 @@ header {
 
 .project img {
   width: 100%;
-  border: 0,5px solid #3b3b3b;
 }
 
 /* Languages */
-
