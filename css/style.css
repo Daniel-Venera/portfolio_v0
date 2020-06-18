@@ -30,6 +30,7 @@ i {
 h2 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 32px;
 }
 
 /* Footer */
@@ -98,6 +99,7 @@ footer a:hover {
 
 section {
   margin-bottom: 100px;
+  padding: 0px 10px 0px 10px;
 }
 
 .project-container {
@@ -116,6 +118,26 @@ section {
 }
 
 .project img {
-  width: 100%;
+  width: 75%;
+  display: block;
+  margin: auto;
 }
 
+/* Navbar */
+
+nav {
+  font-weight: bold;
+  padding-left: 50px;
+  padding-top: 20px;
+  height: 40px;
+  background-color: #292b2c;
+  /* color: white; */
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px
+}
