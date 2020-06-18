@@ -27,7 +27,7 @@ i {
   margin-left: 5px;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   text-transform: uppercase;
 }
@@ -47,9 +47,11 @@ footer {
 
 footer a, i {
   color: #e6e6e6;
-  text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
 footer a:hover {
   text-decoration: underline;
 }
@@ -93,7 +95,7 @@ footer a:hover {
 #main-container {
   margin: 50px;
   background-color: white;
-  padding: 50px;
+  padding: 20px 50px 50px 50px;
 }
 
 section {
@@ -104,14 +106,30 @@ section {
 .project-container {
   display: flex;
   margin: auto;
-  margin-top: 30px
+  margin-top: 20px;
 }
 
 .project {
   width: 50%;
   margin: 5px;
-  padding: 5px;
+  padding: 20px;
+  text-align: justify;
+  
 }
+
+.site {
+  border: 1px solid rgb(231, 231, 231);
+  position: relative;
+}
+.site a {
+  color: black;
+}
+
+.site a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 
 .project-container a {
   display: block;
@@ -147,3 +165,30 @@ nav a {
   color: white;
   padding: 20px;
 }
+
+/* About */
+
+
+#about img {
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 50px;
+}
+
+#about-quote {
+  display: flex;
+}
+
+#quote {
+  margin: 30px 0px 30px 100px;
+  line-height: 20px;
+}
+
+.subtext {
+  padding: 0px 20px 0px 20px
+}
+
+#projects a {
+  display: block;
+}
+
