@@ -56,8 +56,8 @@ footer a:hover {
 
 /* Header */
 
-header {
-  background: linear-gradient(rgba(163, 163, 163, 0.5), rgba(163, 163, 163, 0.5)), url("../images/header.jpg"), no-repeat center;
+.banner {
+  background: linear-gradient(rgba(93, 93, 93, 0.5), rgba(93, 93, 93, 0.5)), url("../images/header.jpg"), no-repeat center;
   /* width: 100%; */
   background-size: 100% 100%;
   /* height: 200px; */
@@ -67,26 +67,36 @@ header {
   margin: 0px;
 }
 
-
-.title {
+#arrow {
   position: absolute;
-  top: 150px;
+  color: white;
+  font-size: 100px;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#title {
+  position: absolute;
+  top: 100px;
   left: 150px;
   color: white;
   font-size: 80px;
+  line-height: 2;
 }
 
 /* Projects */
 
 /* .main-container, .project-container, .projects, .project,  h2 { border: 1px solid red; } */
 
-.main-container {
+#main-container {
   margin: 50px;
   background-color: white;
   padding: 50px;
 }
 
-.projects {
+section {
   margin-bottom: 100px;
 }
 
@@ -108,3 +118,4 @@ header {
 .project img {
   width: 100%;
 }
+
