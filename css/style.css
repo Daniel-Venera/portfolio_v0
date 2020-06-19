@@ -81,6 +81,7 @@ footer a:hover {
 }
 
 #title {
+  /* max-width: 800px; */
   position: absolute;
   top: 150px;
   left: 150px;
@@ -207,57 +208,62 @@ nav a {
   .banner {
     height: 300px;
   }
-
   #title {
     font-size: 30px;
     top: 35px;
     left: 20px;
     right: 20px;
   }
-
   #main-container {
     margin: 0;
     padding: 0;
   }
-
   .project-container {
     flex-direction: column;
     margin: 0;
   }
-
   .site {
     width: 75%;
     margin: auto;
     margin-bottom: 10px;
   }
-
   .subtext {
     padding: 0px 0px 0px 10px
   }
-  
   .tool {
     padding: 0;
   }
-
   .formation {
     margin: auto;
   }
-
   #about {
     padding-bottom: 50px;
   }
-
   #about p {
     margin: 2px;
   }
-
   #about div {
     margin: auto;
     width: 300px;
   }
-
   #about img {
     margin-bottom: 30px;
     width: 50%;
   }
 }
+
+/* Animation */
+
+/* #title {
+  animation: type 3s steps(22);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid white;
+  width: 22ch;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+} */
