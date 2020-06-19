@@ -26,36 +26,42 @@
     </div>
   </nav>
   <div class="banner">
-    <div id="title">Hi, my name is Daniel<br> I'm a fullstack developer</div>
-    <a href="#projects">
+    <div id="typing">
+      <div id='daniel'class="title">Hi, my name is Daniel</div>
+      <div id='developer'></div>
+    </div>
+    
+    <a href="#projects" >
       <div id="arrow">&#8964;</div>
     </a>
   </div>
   <div id="main-container">
     <section id='projects'>
       <h2>Projects</h2>
-      <div class='project-container' data-aos="fade-up">
-        <a href="https://le-lobby.herokuapp.com/" target="_blank">
-          <div class='project site'><img src="images/lobby.png" />
+      <div data-aos="fade-up">
+
+        <div class='project-container'>
+          <a href="https://le-lobby.herokuapp.com/" target="_blank">
+            <div class='project site'><img src="images/lobby.png" />
+              <div class='subtext'>
+                <h3>Le Lobby <br><small>(Ruby on Rails)</small></h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </div>
+          </a>
+        </div>
+        <a href="https://daniel-venera.github.io/todoapp_react/" target="_blank">
+          <div class='project site'><img src="images/todo_app_react.png" />
             <div class='subtext'>
-              <h3>Le Lobby <br><small>(Ruby on Rails)</small></h3>
+              <h3>Todoapp <br><small>(ReactJS)</small></h3>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua.
             </div>
         </a>
       </div>
-      <a href="https://daniel-venera.github.io/todoapp_react/" target="_blank">
-        <div class='project site'><img src="images/todo_app_react.png" />
-          <div class='subtext'>
-            <h3>Todoapp <br><small>(ReactJS)</small></h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-          </div>
-      </a>
-  </div>
 
   </div>
-  <div class='project-container' data-aos="fade-up">
+  <div class='project-container' >
     <a href="https://daniel-venera.github.io/meme_generator_react/" target="_blank">
       <div class='project site'><img src="images/meme_gen.png" />
         <div class='subtext'>
@@ -78,35 +84,38 @@
   </div>
 
   </div>
+
+  </div>
   </section>
   <section id='tools'>
     <h2>Skills</h2>
     <div class='tools-container'>
-      <div class='tool'><img src="images/html.png" /></div>
-      <div class='tool'><img src="images/css.png" /></div>
-      <div class='tool'><img src="images/javascript.png" /></div>
-      <div class='tool'><img src="images/react.png" /></div>
-      <div class='tool'><img src="images/github.png" /></div>
+      <div class='tool'><img src="images/html.png" data-aos="fade-right" /></div>
+      <div class='tool'><img src="images/css.png" data-aos="fade-down" /></div>
+      <div class='tool'><img src="images/javascript.png" data-aos="zoom-in" /></div>
+      <div class='tool'><img src="images/react.png" data-aos="fade-down" /></div>
+      <div class='tool'><img src="images/github.png" data-aos="fade-left" /></div>
     </div>
     <div class='tools-container'>
-      <div class='tool'><img src="images/ruby.png" /></div>
-      <div class='tool'><img src="images/rails.png" /></div>
+      <div class='tool'><img src="images/ruby.png" data-aos="fade-right" /></div>
+      <div class='tool'><img src="images/rails.png" data-aos="fade-up" /></div>
 
-      <div class='tool'><img src="images/mysql.png" /></div>
-      <div class='tool'><img src="images/node.jpg" /></div>
-      <div class='tool'><img src="images/wordpress.png" /></div>
+      <div class='tool'><img src="images/mysql.png" data-aos="zoom-in" /></div>
+      <div class='tool'><img src="images/node.jpg" data-aos="fade-up" /></div>
+      <div class='tool'><img src="images/wordpress.png" data-aos="fade-left" /></div>
 
     </div>
   </section>
   <section id='formations'>
     <h2>Formations</h2>
     <div class='project-container'>
-      <div class='formation'><a href='https://openclassrooms.com/fr/paths/185-developpeur-web' target="_blank"><img
-            src="images/openclassrooms.jpg" /></a></div>
-      <div class='formation'><a
+      <div class='formation' data-aos="flip-left"><a href='https://openclassrooms.com/fr/paths/185-developpeur-web'
+          target="_blank"><img src="images/openclassrooms.jpg" /></a></div>
+      <div class='formation' data-aos="flip-left"><a
           href="https://medium.com/@daniel.venera2/the-hacking-project-journal-de-bord-dun-moussaillon-8101eebe84d1"
           target="_blank"><img src="images/thp.png" /></a></div>
-      <div class='formation'><a href="https://www.grenoble-em.com/" target="_blank"><img src="images/gem.jpg" /></a>
+      <div class='formation' data-aos="flip-left"><a href="https://www.grenoble-em.com/" target="_blank"><img
+            src="images/gem.jpg" /></a>
       </div>
     </div>
   </section>
@@ -114,15 +123,18 @@
     <h2>About</h2>
     <div id="about-quote">
 
-      <img src='images/photo.jpg'>
+      <img src='images/photo.jpg' data-aos="zoom-in">
 
 
-      <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.""
+      <p data-aos="fade-right">
+        <blockquote>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </blockquote>
+        
       </p>
 
     </div>

@@ -80,7 +80,7 @@ footer a:hover {
   transform: translate(-50%, -50%);
 }
 
-#title {
+#typing {
   /* max-width: 800px; */
   position: absolute;
   top: 150px;
@@ -178,7 +178,6 @@ nav a {
 #about-quote {
   margin: auto;
   width: 50%;
-  text-align: justify;
 }
 
 #quote {
@@ -194,9 +193,21 @@ nav a {
   display: block;
 }
 
+#formations img:hover, .site:hover {
+  transition: transform 1s; 
+}
+
 #formations img:hover {
+  transform: scale(1.2);
+}
+
+.site:hover {
+  transform: scale(1.02)
+}
+
+.site:not( :hover ), #formations img:not( :hover ) {
   transition: transform 1s;
-  transform: scale(1.05);
+  transform: scale(1);
 }
 
 /* Responsive */
@@ -250,11 +261,18 @@ nav a {
     margin-bottom: 30px;
     width: 50%;
   }
+  blockquote {
+    font-size: 10px;
+  }
 }
 
+blockquote {
+  font-size: 18px;
+  line-height: 30px;
+}
 /* Animation */
 
-/* #title {
+.title {
   animation: type 3s steps(22);
   overflow: hidden;
   white-space: nowrap;
@@ -262,8 +280,17 @@ nav a {
   width: 22ch;
 }
 
+/* #developer {
+  display: ;
+} */
+
+#typing {
+  display: flex;
+  flex-direction: column;
+}
+
 @keyframes type {
   0% {
     width: 0ch;
   }
-} */
+}
