@@ -110,12 +110,18 @@ section {
   margin-top: 20px;
 }
 
-.project, .tool, .formation {
+.tool, .formation {
   width: 50%;
   margin: 5px;
   padding: 20px;
 }
 
+.project {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 0px 0px 10px 0px;
+}
 .site {
   border: 1px solid rgb(231, 231, 231);
   position: relative;
@@ -134,12 +140,15 @@ section {
   display: block;
 }
 
-.project img, .tool img, .formation img {
+.tool img, .formation img {
   width: 75%;
   display: block;
   margin: auto;
 }
 
+.project img {
+  width: 100%;
+}
 /* Navbar */
 
 nav {
@@ -177,7 +186,7 @@ nav a {
 
 #about-quote {
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
 
 #quote {
@@ -186,7 +195,12 @@ nav a {
 }
 
 .subtext {
-  padding: 0px 20px 0px 20px
+  padding: 0px 10px 0px 10px;
+}
+
+.subtext p {
+  margin: auto;
+  text-align: center;
 }
 
 #projects a {
@@ -269,15 +283,21 @@ nav a {
 blockquote {
   font-size: 18px;
   line-height: 30px;
+  text-align: justify;
+ 
 }
 /* Animation */
 
 .title {
-  animation: type 3s steps(22);
+  animation: type 1.7s steps(22);
   overflow: hidden;
   white-space: nowrap;
-  border-right: 4px solid white;
   width: 22ch;
+}
+
+
+.bordered {
+  border-right: 4px solid #ffffff;
 }
 
 /* #developer {

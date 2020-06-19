@@ -10,23 +10,23 @@ setTimeout(function(){
 daniel.style.border = 'none'
 developer.innerHTML = "I'm a fullstack developer"
 developer.classList.add('title')
+developer.classList.add('bordered')
 developer.style.width = '25ch'
-developer.style.animation = 'type 3s steps(25)'
-setInterval(function() {
-  if (developer.style.borderRight) {
-    developer.style.borderRight = ''
-    console.log('oui')
-  } else {
-    console.log('non')
-    developer.style.bordeRight = "4px solid white"
-    
+developer.style.animation = 'type 1.5s steps(25)'
+console.log(developer.style.borderRight)
 
-  }
-}, 1000);
-}, 3000);
+}, 1700);
 
-setInterval(() => {
-  
-}, 1000);
+setTimeout(function () {
+  setInterval(function() {
+    if (developer.classList.contains('bordered')) {
+      developer.classList.remove('bordered')
+    } else {
+      developer.classList.add('bordered')
+      
+    }
+  }, 600);
+}, 3400)
+
 
 
