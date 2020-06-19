@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
     </div>
   </nav>
   <div class="banner">
-    <span id="title">Hi, my name is Daniel <br> I'm a fullstack developer</span>
+    <div id="title">Hi, my name is Daniel<br> I'm a fullstack developer</div>
     <a href="#projects">
       <div id="arrow">&#8964;</div>
     </a>
@@ -33,7 +34,7 @@
   <div id="main-container">
     <section id='projects'>
       <h2>Projects</h2>
-      <div class='project-container'>
+      <div class='project-container' data-aos="fade-up">
         <a href="https://le-lobby.herokuapp.com/" target="_blank">
           <div class='project site'><img src="images/lobby.png" />
             <div class='subtext'>
@@ -50,32 +51,32 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.
           </div>
-          </a>
-        </div>
+      </a>
+  </div>
 
   </div>
-  <div class='project-container'>
+  <div class='project-container' data-aos="fade-up">
     <a href="https://daniel-venera.github.io/meme_generator_react/" target="_blank">
-    <div class='project site'><img src="images/meme_gen.png" />
-      <div class='subtext'>
-        <h3>Meme Generator <br><small>(ReactJS)</small></h3>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua.
+      <div class='project site'><img src="images/meme_gen.png" />
+        <div class='subtext'>
+          <h3>Meme Generator <br><small>(ReactJS)</small></h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.
 
-      </div>
+        </div>
     </a>
-    </div>
-    
-    <a href="https://daniel-venera.github.io/pokemory_js/" target="_blank">
+  </div>
+
+  <a href="https://daniel-venera.github.io/pokemory_js/" target="_blank">
     <div class='project site'><img src="images/pokemory.png" />
       <div class='subtext'>
         <h3>Memory Pokemon <br><small>(JS)</small></h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua.
       </div>
-    </a>
-    </div>
-    
+  </a>
+  </div>
+
   </div>
   </section>
   <section id='tools'>
@@ -100,19 +101,23 @@
   <section id='formations'>
     <h2>Formations</h2>
     <div class='project-container'>
-      <div class='formation'><a href='https://openclassrooms.com/fr/paths/185-developpeur-web' target="_blank"><img src="images/openclassrooms.jpg" /></a></div>
-      <div class='formation'><a href="https://medium.com/@daniel.venera2/the-hacking-project-journal-de-bord-dun-moussaillon-8101eebe84d1" target="_blank"><img src="images/thp.png" /></a></div>
-      <div class='formation'><a href="https://www.grenoble-em.com/" target="_blank"><img src="images/gem.jpg" /></a></div>
+      <div class='formation'><a href='https://openclassrooms.com/fr/paths/185-developpeur-web' target="_blank"><img
+            src="images/openclassrooms.jpg" /></a></div>
+      <div class='formation'><a
+          href="https://medium.com/@daniel.venera2/the-hacking-project-journal-de-bord-dun-moussaillon-8101eebe84d1"
+          target="_blank"><img src="images/thp.png" /></a></div>
+      <div class='formation'><a href="https://www.grenoble-em.com/" target="_blank"><img src="images/gem.jpg" /></a>
+      </div>
     </div>
   </section>
   <section id='about'>
     <h2>About</h2>
     <div id="about-quote">
-      
-        <img src='images/photo.jpg'>
-      
-      
-        <p>
+
+      <img src='images/photo.jpg'>
+
+
+      <p>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -127,6 +132,8 @@
   <footer>
     Created with <i class="fa fa-heart"></i> by <a href="https://www.linkedin.com/in/daniel-venera/">Daniel Venera</a>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src='js/script.js'></script>
 </body>
 
 </html>
