@@ -107,8 +107,10 @@ section {
 .project-container, .tools-container {
   display: flex;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
+
 
 .tool, .formation {
   width: 50%;
@@ -119,12 +121,12 @@ section {
 .project {
   display: flex;
   align-items: center;
-  margin: 5px;
+  margin: 2px;
   padding: 0px 0px 10px 0px;
 }
 .site {
   border: 1px solid rgb(231, 231, 231);
-  position: relative;
+  margin: 4px;
 }
 
 .site a {
@@ -233,11 +235,17 @@ nav a {
   .banner {
     height: 300px;
   }
-  #title {
+  /* #title {
     font-size: 30px;
     top: 35px;
     left: 20px;
     right: 20px;
+  } */
+
+  #typing {
+    top: 100px;
+    font-size: 20px;
+    left: 50px;
   }
   #main-container {
     margin: 0;
@@ -277,6 +285,7 @@ nav a {
   }
   blockquote {
     font-size: 10px;
+    margin: 0px 10px 0px 10px;
   }
 }
 
