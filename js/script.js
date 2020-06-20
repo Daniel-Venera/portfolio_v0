@@ -1,6 +1,9 @@
 
+  console.log(document.getElementById('lobby'))
+
   AOS.init({
     duration: 1200,
+    disable: 'mobile'
   })
   let daniel = document.getElementById('daniel')
   let developer = document.getElementById('developer')
