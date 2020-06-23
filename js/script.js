@@ -1,5 +1,4 @@
 
-  console.log(document.getElementById('lobby'))
 
   AOS.init({
     duration: 1200,
@@ -17,7 +16,6 @@
   developer.classList.add('bordered')
   developer.style.width = '25ch'
   developer.style.animation = 'type 1.5s steps(25)'
-  console.log(developer.style.borderRight)
   
   }, 1700);
   
