@@ -180,9 +180,10 @@ section {
   width: 100%;
 }
 
-#lobby {
-  background: url("../images/lobby.png"), no-repeat center;
+.solo {
+  justify-content: center;
 }
+
 /* Navbar */
 
 nav {
