@@ -114,6 +114,10 @@ section {
   display: flex;
 }
 
+.project-container {
+  justify-content: center;
+}
+
 
 
 .tool, .formation {
