@@ -43,12 +43,3 @@ sites.forEach(function (e) {
     e.getElementsByClassName('description')[0].classList.remove('description')
   })
 })
-
-
-// Mail
-
-var mail = document.getElementById('mail')
-
-mail.addEventListener('click', function () {
-  window.open('mailto:daniel.venera2@gmail.com');
-})

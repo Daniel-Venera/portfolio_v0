@@ -16,30 +16,32 @@
 </head>
 
 <body>
-  
-    <button id='mail'><i class="fa fa-envelope" aria-hidden="true" style='font-size: 32px; color: white'></i></button>
+
+  <button id='mail'><a href="https://www.linkedin.com/in/daniel-venera/" target="_blank"><i class="fa fa-envelope"
+        aria-hidden="true" style='font-size: 32px; color: white'></i></a></button>
   <nav>
     <div>
-      <a href="#projects" class='nav-item'>Projects</a> 
-      <a href="#tools" class='nav-item'>Skills</a> 
-      <a href="#formations" class='nav-item' >Formations</a> 
+      <a href="#projects" class='nav-item'>Projects</a>
+      <a href="#tools" class='nav-item'>Skills</a>
+      <a href="#formations" class='nav-item'>Formations</a>
       <a href="#about" class='nav-item'>About</a>
     </div>
     <div id="download">
-      <a href="https://www.linkedin.com/in/daniel-venera/" target="_blank">Contact</a> <a
-        href="files/cv_daniel_venera_developpeur_web_fullstack.pdf" download><i class="fa fa-download"></i>Download my
+      <a href="files/cv_daniel_venera_developpeur_web_fullstack.pdf" download><i class="fa fa-download"></i>Download my
         resume</a>
     </div>
   </nav>
-  <div class="banner">
+  <div class='banner-container'>
+    <div class="banner">
+    
+    </div>
+    <a href="#projects">
+      <div class="arrow bounce">&#8964;</div>
+    </a>
     <div id="typing">
       <div id='daniel' class="title bordered">Hi, my name is Daniel</div>
       <div id='developer'></div>
     </div>
-
-    <a href="#projects">
-      <div class="arrow bounce">&#8964;</div>
-    </a>
   </div>
   <div id="main-container">
     <section id='projects'>
@@ -79,8 +81,8 @@
     <a href="https://daniel-venera.github.io/meme_generator_react/" target="_blank">
       <div class='project site'>
         <div class='img-hover-zoom'>
-        
-        <img src="images/boromir.jpg" />
+
+          <img src="images/boromir.jpg" />
         </div>
         <div class='hidden'>
           <b>MemeGenerator </b>
@@ -96,8 +98,8 @@
   <a href="https://daniel-venera.github.io/pokemory_js/" target="_blank">
     <div class='project site'>
       <div class='img-hover-zoom'>
-      
-      <img src="images/pokemory.png" />
+
+        <img src="images/pokemory.png" />
       </div>
       <div class='hidden'>
         <b>Pokemory </b>
@@ -113,8 +115,8 @@
     <a href="https://daniel-venera.github.io/drum_kitty/" target="_blank">
       <div class='project site'>
         <div class='img-hover-zoom'>
-        
-        <img src="images/drumkitty.png" />
+
+          <img src="images/drumkitty.png" />
         </div>
         <div class='hidden'>
           <b>DrumKitty </b>
@@ -126,8 +128,8 @@
   <a href="https://cinechronik.com/" target="_blank">
     <div class='project site'>
       <div class='img-hover-zoom'>
-      
-      <img src="images/cinechronik.png" />
+
+        <img src="images/cinechronik.png" />
       </div>
       <div class='hidden'>
         <b>CineChronik </b>
@@ -142,8 +144,8 @@
     <a href="https://daniel-venera.github.io/tiptop/" target="_blank">
       <div class='project site'>
         <div class='img-hover-zoom'>
-        
-        <img src="images/tiptop.png" />
+
+          <img src="images/tiptop.png" />
         </div>
         <div class='hidden'>
           <b>Tip Top</b>
@@ -155,7 +157,7 @@
   <a href="https://daniel-venera.github.io/todoapp_react/" target="_blank">
     <div class='project site'>
       <div class='img-hover-zoom'>
-      <img src="images/todo_app_react.png" />
+        <img src="images/todo_app_react.png" />
       </div>
       <div class='hidden'>
         <b>ToDoApp </b>
@@ -189,8 +191,8 @@
   <section id='formations'>
     <h2>Formations</h2>
     <div class='project-container'>
-      <div class='formation' ><a href='https://openclassrooms.com/fr/paths/185-developpeur-web'
-          target="_blank"><img src="images/openclassrooms.jpg" /></a></div>
+      <div class='formation'><a href='https://openclassrooms.com/fr/paths/185-developpeur-web' target="_blank"><img
+            src="images/openclassrooms.jpg" /></a></div>
       <div class='formation' data-aos="flip-left"><a
           href="https://medium.com/@daniel.venera2/the-hacking-project-journal-de-bord-dun-moussaillon-8101eebe84d1"
           target="_blank"><img src="images/thp.png" /></a></div>
@@ -202,8 +204,9 @@
   <section id='about'>
     <h2>About</h2>
     <div id="about-quote">
-
-      <img src='images/photo.jpg'>
+      <div class="img-area">
+        <img id='img-about' src='images/photo.jpg'>
+      </div>
 
 
       <p data-aos="fade-right">
