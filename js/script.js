@@ -45,3 +45,10 @@ sites.forEach(function (e) {
 })
 
 
+// Mail
+
+var mail = document.getElementById('mail')
+
+mail.addEventListener('click', function () {
+  window.open('mailto:daniel.venera2@gmail.com');
+})
