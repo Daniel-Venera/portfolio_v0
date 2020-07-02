@@ -33,6 +33,10 @@ h2, h3 {
   text-transform: uppercase;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 /* Footer */
 
@@ -52,17 +56,13 @@ footer i {
   margin: 0;
 }
 
-
 a {
   text-decoration: none;
-
 }
 
 footer a:hover {
   text-decoration: underline;
 }
-
-
 
 /* Header */
 
@@ -77,13 +77,29 @@ footer a:hover {
   margin: 0px;
 }
 
-#arrow {
+.arrow {
   position: absolute;
   color: white;
   font-size: 100px;
-  top: 580px;
+  top: 500px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 #typing {
@@ -118,8 +134,6 @@ section {
   justify-content: center;
 }
 
-
-
 .tool, .formation {
   width: 50%;
   margin: 5px;
@@ -132,6 +146,7 @@ section {
 }
 
 /* Site */
+
 .site {
   position: relative;
   text-align: center;
@@ -149,21 +164,19 @@ section {
   transform: translate(-50%, -50%);
 }
 
-
 .hidden {
   display: none;
 }
 
-.site img:not( :hover ) {
+.site img:not( :hover) {
   transition: opacity 0.5s;
   opacity: 1;
 }
 
 .site img:hover {
   transition: opacity 0.5s;
-  opacity: 0.1;
+  opacity: 0.1 ;
 }
-
 
 .site a:visited {
   color: black;
@@ -173,6 +186,7 @@ section {
 .site a {
   margin: 0px;
 }
+
 
 .tool img, .formation img {
   width: 75%;
@@ -198,7 +212,6 @@ nav {
   padding: 20px 50px 0px 50px;
   height: 40px;
   background-color: #292b2c;
-  /* color: white; */
   font-size: 18px;
   text-transform: uppercase;
   display: flex;
@@ -208,25 +221,25 @@ nav {
 }
 
 nav a {
-  /* margin: 10px 0px 10px 0px; */
   text-decoration: none;
   color: white;
   padding: 20px;
-  /* border: 1px solid white; */
 }
+
+/* Site */
 
 .site a {
   display: inline-block;
   margin: 0px;
   padding: 0px
 }
+
 /* About */
 
 #about img {
   display: block;
   border-radius: 50%;
   width: 200px;
-  /* margin-left: 50px; */
   margin: auto;
 }
 
@@ -254,25 +267,24 @@ nav a {
 }
 
 #formations img:hover {
-  transition: transform 1s; 
+  transition: transform 1s;
 }
 
 #formations img:hover {
   transform: scale(1.2);
 }
 
-.site:not( :hover ), #formations img:not( :hover ) {
+.site:not( :hover), #formations img:not( :hover) {
   transition: transform 1s;
   transform: scale(1);
 }
-
 
 blockquote {
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
- 
 }
+
 /* Animation */
 
 .title {
@@ -282,16 +294,10 @@ blockquote {
   width: 22ch;
 }
 
-
 .bordered {
   border-right: 4px solid #ffffff;
 }
 
-
-
-/* #developer {
-  display: ;
-} */
 
 #typing {
   display: flex;
@@ -313,13 +319,7 @@ blockquote {
   .banner {
     height: 300px;
   }
-  /* #title {
-    font-size: 30px;
-    top: 35px;
-    left: 20px;
-    right: 20px;
-  } */
-
+ 
   #typing {
     top: 100px;
     font-size: 20px;

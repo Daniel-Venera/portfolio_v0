@@ -31,15 +31,17 @@ setTimeout(function () {
 
 let sites = document.querySelectorAll('.site')
 
-sites.forEach(function(e){
-  e.addEventListener('mouseover', function() {
+sites.forEach(function (e) {
+  e.addEventListener('mouseover', function () {
     e.getElementsByClassName('hidden')[0].classList.add('description')
     e.getElementsByClassName('hidden')[0].classList.remove('hidden')
-    
-    
+
+
   })
-  e.addEventListener('mouseout', function() {
+  e.addEventListener('mouseout', function () {
     e.getElementsByClassName('description')[0].classList.add('hidden')
     e.getElementsByClassName('description')[0].classList.remove('description')
   })
 })
+
+
