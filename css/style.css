@@ -85,12 +85,12 @@ footer a:hover {
 }
 
 .banner {
-  background: linear-gradient(rgba(93, 93, 93, 0.5), rgba(93, 93, 93, 0.5)), url("../images/header.jpg"), no-repeat center;
-  /* width: 100%; */
-  background-size: 100% 100%;
-  /* height: 200px; */
-  height: 630px;
-  /* border: 2px solid red; */
+  background: linear-gradient(rgba(93, 93, 93, 0.5), rgba(93, 93, 93, 0.6)), url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: calc(100vh - 40px);
   padding: 0px;
   margin: 0px;
 }
