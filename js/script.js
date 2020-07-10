@@ -10,7 +10,7 @@ let arrow = document.getElementById("arrow");
 
 setTimeout(function () {
   daniel.style.border = "none";
-  developer.innerHTML = "I'm a fullstack developer";
+  developer.innerHTML = "I'm a front-end developer";
   developer.classList.add("title");
   developer.classList.add("bordered");
   developer.style.width = "25ch";
